@@ -6,7 +6,7 @@
     $catsArray = array();
 
     for ($i=0; $i < 7; $i++) {
-        array_push($catsArray, new Cat(generateName(), generateAge(1, 10), generateHairColors(3)));
+        array_push($catsArray, new Cat(generateName(), generateAge(1, 15), generateHairColors(3)));
     }
 
     // Пункт 1.b.
